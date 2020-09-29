@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>App</title>
+  <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+  <h1>Vue.js</h1>
+  <div id="app">
+  {{ message }}
+  </div>
+  <hr>
+  <button onclick="doAction();">
+  click
+  </button>
+  <script>
+  var data = {
+    message: 'Hello Vue'
+  };
+
+  // render内で、子の配列をスタイルを指定するものを含めるものに変更
+  var app = new Vue ({
+    el: '#app',
+    data: data,
+    render: (element) => {
+      return element("p", 
+        {'style':'font-size:20pt; color:red;'},
+        data.message);
+    }
+  })
+
+  function doAction(event) {
+    data.message = "You Clicked!!!!!!!";
+  }
+  </script>
+</body>
+</html>
