@@ -16,6 +16,7 @@
 
 - [イベントハンドリング — Vue.js](https://jp.vuejs.org/v2/guide/events.html)
 
+- [描画関数とJSX — Vue.js](https://jp.vuejs.org/v2/guide/render-function.html)
 
 ## C3
 
