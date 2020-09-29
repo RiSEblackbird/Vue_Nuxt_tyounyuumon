@@ -6,5 +6,17 @@
 </head>
 <body>
   <h1>Vue.js</h1>
+  <div id="app">
+  {{ message }}
+  </div>
+
+  <script>
+  var app = new Vue ({
+    el: '#app',
+    data: {
+      message: 'Helllo Vue!'
+    }
+  })
+  </script>
 </body>
 </html>
