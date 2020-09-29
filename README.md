@@ -3,6 +3,7 @@
 ## Book info
 
 - [Vue.js&Nuxt.js超入門 - 掌田津耶乃 - 株式会社秀和システム](https://www.shuwasystem.co.jp/book/9784798056593.html)
+  - [公式サポートページ(正誤表、サンプルコード)](https://www.shuwasystem.co.jp/support/7980html/5659.html)
 
 ### Others
 
