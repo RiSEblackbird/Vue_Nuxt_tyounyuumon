@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>App</title>
+  <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+  <h1>Vue.js</h1>
+  <div id="app">
+  {{ message }}
+  </div>
+  <hr>
+  <button onclick="doAction();">
+  click
+  </button>
+  <script>
+  var data = {
+    message: 'Hello Vue',
+    items: ['One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven']
+  };
+
+  // オブジェクトの階層を意識して整理した表記例
+  var app = new Vue ({
+    el: '#app',
+    data: data,
+    render: (h) => {
+      return h("div", [
+        h("p", {style:'font-size:20pt;'}, data.message),
+        h("ol", data.items.map(i => h('li', i)))
+      ]);
+    }
+  });
+
+  function doAction(event) {
+    var newdata = [
+      'いち', 'に', 'さん', 'よん', 'ご', 'ろく', 'なな'
+    ];
+    data.message = "You Clicked!!!!!!!";
+    data.items[0] = 'ゼロ';
+    for (n in data.items) {
+      data.items[n] = newdata[n];
+    }
+  }
+  </script>
+</body>
+</html>
