@@ -18,6 +18,11 @@
 - [イベントハンドリング — Vue.js](https://jp.vuejs.org/v2/guide/events.html)
 
 - [描画関数とJSX — Vue.js](https://jp.vuejs.org/v2/guide/render-function.html)
+  - ``render``プロパティについて
+
+- [テンプレート構文 — Vue.js](https://jp.vuejs.org/v2/guide/syntax.html)
+  - [# 生のHTML](https://jp.vuejs.org/v2/guide/syntax.html#%E7%94%9F%E3%81%AE-HTML)
+    - ``v-html``の説明
 
 ## C3
 
