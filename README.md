@@ -28,6 +28,9 @@
   - [# 生のHTML](https://jp.vuejs.org/v2/guide/syntax.html#%E7%94%9F%E3%81%AE-HTML)
     - ``v-html``の説明
 
+- [クラスとスタイルのバインディング — Vue.js](https://jp.vuejs.org/v2/guide/class-and-style.html)
+  - [# オブジェクト構文](https://jp.vuejs.org/v2/guide/class-and-style.html#%E3%82%AA%E3%83%96%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E6%A7%8B%E6%96%87)
+
 - [API — Vue.js](https://jp.vuejs.org/v2/api/)
   - [# v-bind](https://jp.vuejs.org/v2/api/#v-bind)
   - [# v-html](https://jp.vuejs.org/v2/api/#v-html)
