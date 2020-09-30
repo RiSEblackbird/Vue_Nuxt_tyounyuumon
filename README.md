@@ -29,7 +29,8 @@
     - ``v-html``の説明
 
 - [クラスとスタイルのバインディング — Vue.js](https://jp.vuejs.org/v2/guide/class-and-style.html)
-  - [# オブジェクト構文](https://jp.vuejs.org/v2/guide/class-and-style.html#%E3%82%AA%E3%83%96%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E6%A7%8B%E6%96%87)
+  - [v-bind:class (HTML クラスのバインディング)](https://jp.vuejs.org/v2/guide/class-and-style.html#HTML-%E3%82%AF%E3%83%A9%E3%82%B9%E3%81%AE%E3%83%90%E3%82%A4%E3%83%B3%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0)
+  - [v-bind:style (インラインスタイルのバインディング)](https://jp.vuejs.org/v2/guide/class-and-style.html#%E3%82%A4%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB%E3%81%AE%E3%83%90%E3%82%A4%E3%83%B3%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0)
 
 - [API — Vue.js](https://jp.vuejs.org/v2/api/)
   - [# v-bind](https://jp.vuejs.org/v2/api/#v-bind)
