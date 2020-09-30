@@ -32,9 +32,14 @@
   - [v-bind:class (HTML クラスのバインディング)](https://jp.vuejs.org/v2/guide/class-and-style.html#HTML-%E3%82%AF%E3%83%A9%E3%82%B9%E3%81%AE%E3%83%90%E3%82%A4%E3%83%B3%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0)
   - [v-bind:style (インラインスタイルのバインディング)](https://jp.vuejs.org/v2/guide/class-and-style.html#%E3%82%A4%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB%E3%81%AE%E3%83%90%E3%82%A4%E3%83%B3%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0)
 
+- [条件付きレンダリング — Vue.js](https://jp.vuejs.org/v2/guide/conditional.html)
+  - [v-if](https://jp.vuejs.org/v2/guide/conditional.html#v-if)
+
 - [API — Vue.js](https://jp.vuejs.org/v2/api/)
   - [# v-bind](https://jp.vuejs.org/v2/api/#v-bind)
   - [# v-html](https://jp.vuejs.org/v2/api/#v-html)
+  - [# v-if](https://jp.vuejs.org/v2/api/#v-if)
+  - [# v-else](https://jp.vuejs.org/v2/api/#v-else)
 
 ## C3
 
