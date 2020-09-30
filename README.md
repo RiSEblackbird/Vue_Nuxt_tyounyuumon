@@ -9,6 +9,10 @@
 
 - [Introduction — Vue.js](https://vuejs.org/v2/guide/)
 
+- [API — Vue.js](https://jp.vuejs.org/v2/api/)
+  - [# v-bind](https://jp.vuejs.org/v2/api/#v-bind)
+  - [# v-html](https://jp.vuejs.org/v2/api/#v-html)
+
 ## C1
 
 - [Vue CLI](https://cli.vuejs.org/)
@@ -23,6 +27,10 @@
 - [テンプレート構文 — Vue.js](https://jp.vuejs.org/v2/guide/syntax.html)
   - [# 生のHTML](https://jp.vuejs.org/v2/guide/syntax.html#%E7%94%9F%E3%81%AE-HTML)
     - ``v-html``の説明
+
+- [API — Vue.js](https://jp.vuejs.org/v2/api/)
+  - [# v-bind](https://jp.vuejs.org/v2/api/#v-bind)
+  - [# v-html](https://jp.vuejs.org/v2/api/#v-html)
 
 ## C3
 
