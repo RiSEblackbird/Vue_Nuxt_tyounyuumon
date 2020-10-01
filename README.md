@@ -12,6 +12,10 @@
 - [API — Vue.js](https://jp.vuejs.org/v2/api/)
   - [# v-bind](https://jp.vuejs.org/v2/api/#v-bind)
   - [# v-html](https://jp.vuejs.org/v2/api/#v-html)
+  - [# v-if](https://jp.vuejs.org/v2/api/#v-if)
+  - [# v-else](https://jp.vuejs.org/v2/api/#v-else)
+  - [# v-for](https://jp.vuejs.org/v2/api/#v-for)
+  - [# Vue.component( id, [definition] )](https://jp.vuejs.org/v2/api/#Vue-component)
 
 ## C1
 
@@ -46,6 +50,11 @@
   - [# v-for](https://jp.vuejs.org/v2/api/#v-for)
 
 ## C3
+
+- [コンポーネントの基本 — Vue.js](https://jp.vuejs.org/v2/guide/components.html)
+
+- [API — Vue.js](https://jp.vuejs.org/v2/api/)
+  - [# Vue.component( id, [definition] )](https://jp.vuejs.org/v2/api/#Vue-component)
 
 ## C4
 
