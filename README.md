@@ -7,6 +7,8 @@
 
 ### Others
 
+(本編での登場順)
+
 - [Introduction — Vue.js](https://vuejs.org/v2/guide/)
 
 - [API — Vue.js](https://jp.vuejs.org/v2/api/)
@@ -17,6 +19,7 @@
   - [# v-for](https://jp.vuejs.org/v2/api/#v-for)
   - [# Vue.component( id, [definition] )](https://jp.vuejs.org/v2/api/#Vue-component)
   - [# props](https://jp.vuejs.org/v2/api/#props)
+  - [# v-model](https://jp.vuejs.org/v2/api/#v-model)
 
 ## C1
 
@@ -56,9 +59,12 @@
 
 - [プロパティ — Vue.js](https://jp.vuejs.org/v2/guide/components-props.html)
 
+- [フォーム入力バインディング — Vue.js](https://jp.vuejs.org/v2/guide/forms.html)
+
 - [API — Vue.js](https://jp.vuejs.org/v2/api/)
   - [# Vue.component( id, [definition] )](https://jp.vuejs.org/v2/api/#Vue-component)
   - [# props](https://jp.vuejs.org/v2/api/#props)
+  - [# v-model](https://jp.vuejs.org/v2/api/#v-model)
 
 ## C4
 
