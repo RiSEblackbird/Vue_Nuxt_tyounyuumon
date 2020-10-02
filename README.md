@@ -11,6 +11,8 @@
 
 - [Introduction — Vue.js](https://vuejs.org/v2/guide/)
 
+### APIドキュメントまとめ
+
 - [API — Vue.js](https://jp.vuejs.org/v2/api/)
   - [# v-bind](https://jp.vuejs.org/v2/api/#v-bind)
   - [# v-html](https://jp.vuejs.org/v2/api/#v-html)
@@ -20,6 +22,7 @@
   - [# Vue.component( id, [definition] )](https://jp.vuejs.org/v2/api/#Vue-component)
   - [# props](https://jp.vuejs.org/v2/api/#props)
   - [# v-model](https://jp.vuejs.org/v2/api/#v-model)
+  - [# v-on](https://jp.vuejs.org/v2/api/#v-on)
 
 ## C1
 
@@ -65,6 +68,7 @@
   - [# Vue.component( id, [definition] )](https://jp.vuejs.org/v2/api/#Vue-component)
   - [# props](https://jp.vuejs.org/v2/api/#props)
   - [# v-model](https://jp.vuejs.org/v2/api/#v-model)
+  - [# v-on](https://jp.vuejs.org/v2/api/#v-on)
 
 ## C4
 
