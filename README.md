@@ -23,6 +23,7 @@
   - [# props](https://jp.vuejs.org/v2/api/#props)
   - [# v-model](https://jp.vuejs.org/v2/api/#v-model)
   - [# v-on](https://jp.vuejs.org/v2/api/#v-on)
+  - [# computed](https://jp.vuejs.org/v2/api/#computed)
 
 ## C1
 
@@ -64,11 +65,14 @@
 
 - [フォーム入力バインディング — Vue.js](https://jp.vuejs.org/v2/guide/forms.html)
 
+- [算出プロパティとウォッチャ — Vue.js](https://jp.vuejs.org/v2/guide/computed.html#%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E4%BE%8B)
+
 - [API — Vue.js](https://jp.vuejs.org/v2/api/)
   - [# Vue.component( id, [definition] )](https://jp.vuejs.org/v2/api/#Vue-component)
   - [# props](https://jp.vuejs.org/v2/api/#props)
   - [# v-model](https://jp.vuejs.org/v2/api/#v-model)
   - [# v-on](https://jp.vuejs.org/v2/api/#v-on)
+  - [# computed](https://jp.vuejs.org/v2/api/#computed)
 
 ## C4
 
