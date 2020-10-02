@@ -53,8 +53,11 @@
 
 - [コンポーネントの基本 — Vue.js](https://jp.vuejs.org/v2/guide/components.html)
 
+- [プロパティ — Vue.js](https://jp.vuejs.org/v2/guide/components-props.html)
+
 - [API — Vue.js](https://jp.vuejs.org/v2/api/)
   - [# Vue.component( id, [definition] )](https://jp.vuejs.org/v2/api/#Vue-component)
+  - [# props](https://jp.vuejs.org/v2/api/#props)
 
 ## C4
 
