@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>App</title>
+  <script src="https://unpkg.com/vue"></script>
+  <style>
+    .hello {
+      font-size: 20pt;
+      font-weight: bold;
+      border: 1px solid magenta;
+      padding: 5px 10px 0px 10px;
+      margin: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Vue.js</h1>
+  <div id="app">
+    <!-- dataの配列要素をname属性に設定 -->
+    <hello v-for="item in data" v-bind:name="item" />
+  </div>
+
+  <script>
+    var hello = Vue.component('hello',
+    {
+      props: ['name'],
+      template: '<p class="hello">Hello, {{ name }}!</p>'
+    })
+
+    var app = new Vue({
+      el: '#app',
+      data: {
+        data: ['Taros', 'Hanakon', 'Sachikonium', 'Jirogen']
+      }
+    });
+  </script>
+</body>
+</html>

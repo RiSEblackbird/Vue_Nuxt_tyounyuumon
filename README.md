@@ -16,6 +16,7 @@
   - [# v-else](https://jp.vuejs.org/v2/api/#v-else)
   - [# v-for](https://jp.vuejs.org/v2/api/#v-for)
   - [# Vue.component( id, [definition] )](https://jp.vuejs.org/v2/api/#Vue-component)
+  - [# props](https://jp.vuejs.org/v2/api/#props)
 
 ## C1
 
