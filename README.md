@@ -67,6 +67,9 @@
 
 - [算出プロパティとウォッチャ — Vue.js](https://jp.vuejs.org/v2/guide/computed.html#%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E4%BE%8B)
 
+- [コンポーネントの登録 — Vue.js](https://jp.vuejs.org/v2/guide/components-registration.html)
+  - [# ローカル登録](https://jp.vuejs.org/v2/guide/components-registration.html#%E3%83%AD%E3%83%BC%E3%82%AB%E3%83%AB%E7%99%BB%E9%8C%B2)
+
 - [API — Vue.js](https://jp.vuejs.org/v2/api/)
   - [# Vue.component( id, [definition] )](https://jp.vuejs.org/v2/api/#Vue-component)
   - [# props](https://jp.vuejs.org/v2/api/#props)
