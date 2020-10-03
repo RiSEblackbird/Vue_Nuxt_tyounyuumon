@@ -4,7 +4,7 @@
     <p>{{ message }}</p>
     <hr>
     <div>
-      <div><textarea v-model="formula" cols="40" rows="5">\
+      <div><textarea v-model="fomula" cols="40" rows="5">\
         </textarea></div>
       <div><button v-on:click="doAction">CALC</button></div>
     </div>
@@ -20,12 +20,12 @@ export default {
   data: function () {
     return {
       message: 'Enter expression: ',
-      formula: '0'
+      fomula: '0'
     };
   },
   methods: {
     doAction: function () {
-      var arr = this.formula.trim().split('¥n');
+      var arr = this.fomula.trim().split('¥n');
       var last = arr.pop();
       var fn = '';
       for(var n in arr) {
