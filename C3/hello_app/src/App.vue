@@ -1,7 +1,7 @@
-// 3-16
+// 3-18
 <template>
   <div id="app">
-    <HelloWorld title="Hello" message="サンプルプロジェクト！！！"/>
+    <HelloWorld title="Hello" />
   </div>
 </template>
 
