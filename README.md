@@ -24,6 +24,7 @@
   - [# v-model](https://jp.vuejs.org/v2/api/#v-model)
   - [# v-on](https://jp.vuejs.org/v2/api/#v-on)
   - [# computed](https://jp.vuejs.org/v2/api/#computed)
+  - [# vm.$emit( eventName, […args] )](https://jp.vuejs.org/v2/api/#vm-emit)
 
 ## C1
 
@@ -76,6 +77,7 @@
   - [# v-model](https://jp.vuejs.org/v2/api/#v-model)
   - [# v-on](https://jp.vuejs.org/v2/api/#v-on)
   - [# computed](https://jp.vuejs.org/v2/api/#computed)
+  - [# vm.$emit( eventName, […args] )](https://jp.vuejs.org/v2/api/#vm-emit)
 
 ## C4
 
