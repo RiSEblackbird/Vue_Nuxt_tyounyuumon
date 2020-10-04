@@ -100,6 +100,9 @@
 
 ## C4
 
+- [プロパティ — Vue.js](https://jp.vuejs.org/v2/guide/components-props.html)
+  - [# プロパティのバリデーション](https://jp.vuejs.org/v2/guide/components-props.html#%E3%83%97%E3%83%AD%E3%83%91%E3%83%86%E3%82%A3%E3%81%AE%E3%83%90%E3%83%AA%E3%83%87%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3)
+
 ## C5
 
 ## C6

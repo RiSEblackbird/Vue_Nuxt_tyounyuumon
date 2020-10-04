@@ -10,12 +10,20 @@
   </div>
 </template>
 
+// 4-3
 <script>
 export default {
   name: 'HelloWorld',
   props: {
     title: String,
-    num: Number
+    num: {
+      type:Number,
+      default: 100,
+      validator: function (value) {
+        return value == parseInt(value)
+          && value >= 0 && value <= 100;
+      }
+    }
   },
   data:function () {
     return {

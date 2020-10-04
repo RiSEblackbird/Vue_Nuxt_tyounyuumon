@@ -17,7 +17,7 @@ export default {
   data:function() {
     return {
       message: 'validate',
-      num: 'abc'
+      num: 20
     };
   }
 }
