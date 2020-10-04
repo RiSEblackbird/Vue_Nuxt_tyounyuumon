@@ -79,6 +79,25 @@
   - [# computed](https://jp.vuejs.org/v2/api/#computed)
   - [# vm.$emit( eventName, […args] )](https://jp.vuejs.org/v2/api/#vm-emit)
 
+### Error
+
+#### Section 3-4
+
+- Calc.vue(28)の改行記号("¥n" -> "\n")
+  - Did not work
+
+    ~~~js
+    var arr = this.fomula.trim().split('¥n');
+    >> ["r = 5↵r * 5"]
+    ~~~
+
+  - Worked
+
+    ~~~js
+    var arr = this.fomula.trim().split('\n');
+    >> ["r = 34", "pi = 3.14", "2 * r * pi"]
+    ~~~
+
 ## C4
 
 ## C5
