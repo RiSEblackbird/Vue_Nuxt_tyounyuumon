@@ -103,6 +103,13 @@
 - [プロパティ — Vue.js](https://jp.vuejs.org/v2/guide/components-props.html)
   - [# プロパティのバリデーション](https://jp.vuejs.org/v2/guide/components-props.html#%E3%83%97%E3%83%AD%E3%83%91%E3%83%86%E3%82%A3%E3%81%AE%E3%83%90%E3%83%AA%E3%83%87%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3)
 
+- [リアクティブの探求 — Vue.js](https://jp.vuejs.org/v2/guide/reactivity.html)
+  - [# 変更の追跡方法](https://jp.vuejs.org/v2/guide/reactivity.html#%E5%A4%89%E6%9B%B4%E3%81%AE%E8%BF%BD%E8%B7%A1%E6%96%B9%E6%B3%95)
+    - [オブジェクトでの作業 - JavaScript | MDN](https://developer.mozilla.org/ja/docs/Web/JavaScript/Guide/Working_with_Objects)
+      - [# ゲッターとセッターの定義](https://developer.mozilla.org/ja/docs/Web/JavaScript/Guide/Working_with_Objects#Defining_getters_and_setters)
+        - [ゲッター - JavaScript | MDN](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Functions/get)
+        - [セッター - JavaScript | MDN](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Functions/set)
+
 ## C5
 
 ## C6

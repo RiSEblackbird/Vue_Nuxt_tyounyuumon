@@ -1,34 +1,47 @@
-// 4-1
+// 4-4
 <template>
   <div class="hello">
     <h1>{{ title }}</h1>
     <p>{{ message }}</p>
     <hr>
-    <div>
-      <p>Number: {{ num }}</p>
-    </div>
+    <p>val: {{ val }}</p>
+    <div>* 2: <input type="number" v-model="a"></div>
+    <div>^ 2: <input type="number" v-model="b"></div>
   </div>
 </template>
 
-// 4-3
 <script>
 export default {
   name: 'HelloWorld',
   props: {
-    title: String,
-    num: {
-      type:Number,
-      default: 100,
-      validator: function (value) {
-        return value == parseInt(value)
-          && value >= 0 && value <= 100;
-      }
-    }
+    title: String
   },
   data:function () {
     return {
-      message: 'バリデーションチェック'
+      message: 'バリデーションチェック',
+      val: 0
     };
+  },
+  computed: {
+    a:{
+      get:function () {
+        return this.val * 2;
+      },
+      set: function (value) {
+        this.val = Math.floor(value / 2);
+      }
+    },
+    b:{
+      get: function () {
+        return this.val * this.val;
+      },
+      set: function (value) {
+        this.val = Math.floor(Math.sqrt(value));
+      }
+    }
+  },
+  created: function () {
+    this.val = 10;
   }
 }
 </script>

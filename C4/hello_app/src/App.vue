@@ -1,8 +1,8 @@
 // 4-2
 <template>
   <div id="app">
-    <HelloWorld v-bind:title="message" 
-      v-bind:num="num" />
+    <!-- 4-5 -->
+    <HelloWorld title="validate" />
   </div>
 </template>
 
