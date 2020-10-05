@@ -25,6 +25,7 @@
   - [# v-on](https://jp.vuejs.org/v2/api/#v-on)
   - [# computed](https://jp.vuejs.org/v2/api/#computed)
   - [# vm.$emit( eventName, […args] )](https://jp.vuejs.org/v2/api/#vm-emit)
+  - [# watch](https://jp.vuejs.org/v2/api/#watch)
 
 ## C1
 
@@ -109,6 +110,9 @@
       - [# ゲッターとセッターの定義](https://developer.mozilla.org/ja/docs/Web/JavaScript/Guide/Working_with_Objects#Defining_getters_and_setters)
         - [ゲッター - JavaScript | MDN](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Functions/get)
         - [セッター - JavaScript | MDN](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Functions/set)
+
+- [算出プロパティとウォッチャ — Vue.js](https://jp.vuejs.org/v2/guide/computed.html#%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E4%BE%8B)
+  - [# ウォッチャ](https://jp.vuejs.org/v2/guide/computed.html#%E3%82%A6%E3%82%A9%E3%83%83%E3%83%81%E3%83%A3)
 
 ## C5
 
