@@ -1,16 +1,12 @@
-// 4-17
+// 4-19
 <template>
   <div class="hello">
     <h1>{{ title }}</h1>
-    <pre>{{ message }}</pre>
+    <p>{{ message }}</p>
     <hr>
-    <ul>
-      <li><slot name="a" /></li>
-      <li><slot name="b" /></li>
-      <li><slot name="c" /></li>
-    </ul>
-    <hr>
-    <slot />
+    <ol>
+      <slot />
+    </ol>
   </div>
 </template>
 
