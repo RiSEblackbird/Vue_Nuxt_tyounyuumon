@@ -1,16 +1,15 @@
-// 4-12
+// 4-13
 <template>
   <div class="hello">
     <h1>{{ title }}</h1>
     <pre>{{ message }}</pre>
     <hr>
     <div class="area"
-      v-on:click.="click"
-      v-on:click.exact="exact"
-      v-on:click.shift="shift"
-      v-on:click.ctrl="ctrl"
-      v-on:click.alt="alt">
-      </div>
+      v-on:click.left.prevent="left"
+      v-on:click.middle.prevent="middle"
+      v-on:click.right.prevent="right">
+      click here!
+    </div>
   </div>
 </template>
 
@@ -26,20 +25,14 @@ export default {
     };
   },
   methods: {
-    click: function () {
-      this.message = 'click';
+    left: function () {
+      this.message += '[left button]';
     },
-    exact: function () {
-      this.message += '**no any key**';
+    right: function () {
+      this.message += '[right button]';
     },
-    shift: function () {
-      this.message += '[shift]';
-    },
-    ctrl: function () {
-      this.message += '[ctrl]';
-    },
-    alt: function () {
-      this.message += '[alt]';
+    middle: function () {
+      this.message += '[middle button]';
     }
   }
 }
