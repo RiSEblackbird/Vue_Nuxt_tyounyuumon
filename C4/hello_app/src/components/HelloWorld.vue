@@ -1,10 +1,16 @@
-// 4-15
+// 4-17
 <template>
   <div class="hello">
     <h1>{{ title }}</h1>
     <pre>{{ message }}</pre>
     <hr>
-    <div><slot /></div>
+    <ul>
+      <li><slot name="a" /></li>
+      <li><slot name="b" /></li>
+      <li><slot name="c" /></li>
+    </ul>
+    <hr>
+    <slot />
   </div>
 </template>
 
@@ -44,5 +50,11 @@ p {
 .inner {
   color: red;
   font-size: 14pt;
+}
+.etc {
+  color: green;
+  background-color: #eee;
+  font-size: 12px;
+  padding: 5px;
 }
 </style>
