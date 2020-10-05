@@ -1,15 +1,10 @@
-// 4-13
+// 4-15
 <template>
   <div class="hello">
     <h1>{{ title }}</h1>
     <pre>{{ message }}</pre>
     <hr>
-    <div class="area"
-      v-on:click.left.prevent="left"
-      v-on:click.middle.prevent="middle"
-      v-on:click.right.prevent="right">
-      click here!
-    </div>
+    <div><slot /></div>
   </div>
 </template>
 
@@ -21,19 +16,8 @@ export default {
   },
   data:function () {
     return {
-      message: ''
+      message: 'This is message.'
     };
-  },
-  methods: {
-    left: function () {
-      this.message += '[left button]';
-    },
-    right: function () {
-      this.message += '[right button]';
-    },
-    middle: function () {
-      this.message += '[middle button]';
-    }
   }
 }
 </script>
@@ -57,15 +41,8 @@ p {
   color: #666;
   font-size: 16pt;
 }
-pre {
-  font-size: 14px;
-  line-height: 1.25;
-}
-.area {
-  width: 300px;
-  height: 100px;
-  background-color: #ddd;
-  padding: 10px;
-  font-size: 20px;
+.inner {
+  color: red;
+  font-size: 14pt;
 }
 </style>

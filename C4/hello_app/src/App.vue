@@ -1,8 +1,9 @@
-// 4-2
+// 4-14
 <template>
   <div id="app">
-    <!-- 4-5 -->
-    <HelloWorld title="validate" />
+    <HelloWorld title="slot">
+      <p class="inner">***this is dafault text***</p>
+    </HelloWorld>
   </div>
 </template>
 

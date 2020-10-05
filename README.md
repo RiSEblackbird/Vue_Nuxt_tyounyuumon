@@ -26,6 +26,7 @@
   - [# computed](https://jp.vuejs.org/v2/api/#computed)
   - [# vm.$emit( eventName, […args] )](https://jp.vuejs.org/v2/api/#vm-emit)
   - [# watch](https://jp.vuejs.org/v2/api/#watch)
+  - [# slot](https://jp.vuejs.org/v2/api/#slot)
 
 ## C1
 
@@ -122,8 +123,14 @@
 - [イベントハンドリング — Vue.js](https://jp.vuejs.org/v2/guide/events.html)
   - [# イベント装飾子](https://jp.vuejs.org/v2/guide/events.html#%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E4%BF%AE%E9%A3%BE%E5%AD%90)
 
+- [コンポーネントの基本 — Vue.js](https://jp.vuejs.org/v2/guide/components.html)
+  - [# スロットによるコンテンツ配信](https://jp.vuejs.org/v2/guide/components.html#%E3%82%B9%E3%83%AD%E3%83%83%E3%83%88%E3%81%AB%E3%82%88%E3%82%8B%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84%E9%85%8D%E4%BF%A1)
+
+- [スロット — Vue.js](https://jp.vuejs.org/v2/guide/components-slots.html)
+
 - [API — Vue.js](https://jp.vuejs.org/v2/api/)
   - [# watch](https://jp.vuejs.org/v2/api/#watch)
+  - [# slot](https://jp.vuejs.org/v2/api/#slot)
 
 ## C5
 
