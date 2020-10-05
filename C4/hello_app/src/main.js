@@ -1,13 +1,15 @@
-// 4-22
+// 4-23
 import Vue from 'vue'
+import App from './App.vue'
 
 new Vue({
   el: '#app',
   render: function(h) {
     return (
       <div>
-        <h2>Hello</h2>
-        <p>This is sample.</p>
+        <p>※以下はAppコンポーエントの表示</p>
+        <hr />
+        <App/>
       </div>
     );
   }
