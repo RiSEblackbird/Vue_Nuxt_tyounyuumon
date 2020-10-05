@@ -1,12 +1,14 @@
-// 4-20
+// 4-21
 <script>
 export default {
   name: 'HelloWorld',
   render: function (h) {
-    return h('div', {}, [
-      h('h1', 'Render'),
-      h('p', 'this is render sample.')
-    ]);
+    return (
+      <div>
+        <h1>JSX</h1>
+        <p>this is JSX message!</p>
+      </div>
+    );
   }
 }
 </script>

@@ -129,6 +129,9 @@
 - [スロット — Vue.js](https://jp.vuejs.org/v2/guide/components-slots.html)
   - [# 名前付きスロット](https://jp.vuejs.org/v2/guide/components-slots.html#%E5%90%8D%E5%89%8D%E4%BB%98%E3%81%8D%E3%82%B9%E3%83%AD%E3%83%83%E3%83%88)
 
+- [描画関数とJSX — Vue.js](https://jp.vuejs.org/v2/guide/render-function.html#ad)
+  - [# JSX](https://jp.vuejs.org/v2/guide/render-function.html#JSX)
+
 - [API — Vue.js](https://jp.vuejs.org/v2/api/)
   - [# watch](https://jp.vuejs.org/v2/api/#watch)
   - [# slot](https://jp.vuejs.org/v2/api/#slot)
