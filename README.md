@@ -114,6 +114,15 @@
 - [算出プロパティとウォッチャ — Vue.js](https://jp.vuejs.org/v2/guide/computed.html#%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E4%BE%8B)
   - [# ウォッチャ](https://jp.vuejs.org/v2/guide/computed.html#%E3%82%A6%E3%82%A9%E3%83%83%E3%83%81%E3%83%A3)
 
+- [Event.target - Web API | MDN](https://developer.mozilla.org/ja/docs/Web/API/Event/target)
+- [Event.currentTarget - Web API | MDN](https://developer.mozilla.org/ja/docs/Web/API/Event/currentTarget)
+
+- [イベントハンドリング — Vue.js](https://jp.vuejs.org/v2/guide/events.html)
+  - [# イベント装飾子](https://jp.vuejs.org/v2/guide/events.html#%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E4%BF%AE%E9%A3%BE%E5%AD%90)
+
+- [API — Vue.js](https://jp.vuejs.org/v2/api/)
+  - [# watch](https://jp.vuejs.org/v2/api/#watch)
+
 ## C5
 
 ## C6
