@@ -134,6 +134,8 @@
 - [描画関数とJSX — Vue.js](https://jp.vuejs.org/v2/guide/render-function.html#ad)
   - [# JSX](https://jp.vuejs.org/v2/guide/render-function.html#JSX)
 
+- [Enter/Leave とトランジション一覧 — Vue.js](https://jp.vuejs.org/v2/guide/transitions.html)
+
 - [API — Vue.js](https://jp.vuejs.org/v2/api/)
   - [# watch](https://jp.vuejs.org/v2/api/#watch)
   - [# slot](https://jp.vuejs.org/v2/api/#slot)
