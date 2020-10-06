@@ -1,4 +1,4 @@
-// 4-31
+// 4-32
 <template>
   <div class="hello">
     <h1>{{ title }}</h1>
@@ -79,7 +79,8 @@ p {
   opacity: 0;
 }
 .transit-enter, .transit-leave-to {
-  transform: translateX(300px) translateY(100px) scaleX(0.5) scaleY(8.0);
+  transform: translateX(400px) translateY(100px) scaleX(0.7) scaleY(9.0)
+    rotateX(540deg) rotateY(540deg);
   opacity: 0.1;
 }
 .inner {
