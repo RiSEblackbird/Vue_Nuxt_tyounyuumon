@@ -1,4 +1,4 @@
-// 4-26
+// 4-27
 <template>
   <div class="hello">
     <h1>{{ title }}</h1>
@@ -8,7 +8,7 @@
       {{ btn }}
     </button>
     <transition name="transit">
-      <p v-if="flg" class="trans">Transition</p>
+      <p v-if="flg" class="trans">Transition!!!!!</p>
     </transition>
   </div>
 </template>
@@ -57,6 +57,24 @@ p {
   background-color: #ddf;
   padding: 10px;
   font-size: 20px;
+}
+.transit-enter-active {
+  transition: opacity 0.5s;
+}
+.transit-leave-active {
+  transition: opacity 5.0s;
+}
+.transit-enter {
+  opacity: 0;
+}
+.transit-enter-to {
+  opacity: 1.0;
+}
+.transit-leave {
+  opacity: 1.0;
+}
+.transit-leave-to {
+  opacity: 0;
 }
 .inner {
   color: red;

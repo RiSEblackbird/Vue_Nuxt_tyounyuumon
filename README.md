@@ -27,6 +27,7 @@
   - [# vm.$emit( eventName, […args] )](https://jp.vuejs.org/v2/api/#vm-emit)
   - [# watch](https://jp.vuejs.org/v2/api/#watch)
   - [# slot](https://jp.vuejs.org/v2/api/#slot)
+  - [# transition](https://jp.vuejs.org/v2/api/#transition)
 
 ## C1
 
@@ -125,6 +126,7 @@
 
 - [コンポーネントの基本 — Vue.js](https://jp.vuejs.org/v2/guide/components.html)
   - [# スロットによるコンテンツ配信](https://jp.vuejs.org/v2/guide/components.html#%E3%82%B9%E3%83%AD%E3%83%83%E3%83%88%E3%81%AB%E3%82%88%E3%82%8B%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84%E9%85%8D%E4%BF%A1)
+  - [# 動的なコンポーネント](https://jp.vuejs.org/v2/guide/components.html#%E5%8B%95%E7%9A%84%E3%81%AA%E3%82%B3%E3%83%B3%E3%83%9D%E3%83%BC%E3%83%8D%E3%83%B3%E3%83%88)
 
 - [スロット — Vue.js](https://jp.vuejs.org/v2/guide/components-slots.html)
   - [# 名前付きスロット](https://jp.vuejs.org/v2/guide/components-slots.html#%E5%90%8D%E5%89%8D%E4%BB%98%E3%81%8D%E3%82%B9%E3%83%AD%E3%83%83%E3%83%88)
@@ -135,6 +137,7 @@
 - [API — Vue.js](https://jp.vuejs.org/v2/api/)
   - [# watch](https://jp.vuejs.org/v2/api/#watch)
   - [# slot](https://jp.vuejs.org/v2/api/#slot)
+  - [# transition](https://jp.vuejs.org/v2/api/#transition)
 
 ## C5
 
