@@ -1,4 +1,4 @@
-// 4-32
+// 4-33
 <template>
   <div class="hello">
     <h1>{{ title }}</h1>
@@ -62,9 +62,11 @@ p {
 }
 .transit-enter-active {
   transition: 1.0s;
+  animation: anim 
 }
 .transit-leave-active {
   transition: 1.0s;
+  animation: anim 5.0s;
 }
 .transit-enter {
   opacity: 0;
@@ -92,5 +94,33 @@ p {
   background-color: #eee;
   font-size: 12px;
   padding: 5px;
+}
+
+@keyframes anim {
+  0% {
+    transform: translateX(0px) translateY(0px) rotateZ(0deg);
+    opacity: 1.0;
+    background-color: #ddf;
+  }
+  25% {
+    transform: translateX(250px) translateY(0px) rotateZ(0deg);
+    opacity: 1.0;
+    background-color: #fdd;
+  }
+  50% {
+    transform: translateX(250px) translateY(-100px) rotateZ(540deg);
+    opacity: 1.0;
+    background-color: #dfd;
+  }
+  75% {
+    transform: translateX(250px) translateY(-100px) rotateZ(540deg);
+    opacity: 1.0;
+    background-color: #fdf;
+  }
+  100% {
+    transform: translateX(0px) translateY(-200px) rotateZ(1080deg);
+    opacity: 1.0;
+    background-color: #ffd;
+  }
 }
 </style>
