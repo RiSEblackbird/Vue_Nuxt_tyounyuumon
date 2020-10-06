@@ -1,17 +1,14 @@
-// 4-28
+// 4-29
 <template>
   <div class="hello">
     <h1>{{ title }}</h1>
     <p>{{ message }}</p>
     <hr/>
     <button v-on:click="doAction">
-      {{ btn }}
+      show/Hide
     </button>
-    <transition name="transit"
-        v-on:before-enter="startAction"
-        v-on:before-leave="startAction"
-        v-on:after-enter="endAction"
-        v-on:after-leave="endAction">
+    <br><br>
+    <transition name="transit">
       <p v-if="flg" class="trans">Transition!!!!!</p>
     </transition>
   </div>
@@ -33,22 +30,6 @@ export default {
   methods: {
     doAction: function () {
       this.flg = !this.flg;
-    },
-    startAction: function () {
-      if (this.flg) {
-        this.message = '現れそう.........';
-      } else {
-        this.message = '消えてしまう.....(絶望)';
-      }
-    },
-    endAction: function () {
-      if (this.flg) {
-        this.btn = 'Hide';
-        this.message = '現れた！！！！！！';
-      } else {
-        this.btn = 'Show';
-        this.message = '消えた！！！！！';
-      }
     }
   }
 }
@@ -74,6 +55,7 @@ p {
   font-size: 16pt;
 }
 .trans {
+  width: 150px;
   background-color: #ddf;
   padding: 10px;
   font-size: 20px;
@@ -82,7 +64,7 @@ p {
   transition: opacity 1.0s;
 }
 .transit-leave-active {
-  transition: opacity 3.0s;
+  transition: opacity 1.0s;
 }
 .transit-enter {
   opacity: 0;
