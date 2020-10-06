@@ -1,20 +1,35 @@
-// 4-25
+// 4-26
+<template>
+  <div class="hello">
+    <h1>{{ title }}</h1>
+    <p>{{ message }}</p>
+    <hr/>
+    <button v-on:click="doAction">
+      {{ btn }}
+    </button>
+    <transition name="transit">
+      <p v-if="flg" class="trans">Transition</p>
+    </transition>
+  </div>
+</template>
+
 <script>
 export default {
   name: 'HelloWorld',
+  props: {
+    title: String
+  },
   data: function () {
     return {
-      title: 'JSX',
-      message: 'これは、dataに用意したメッセージです。'
+      message: 'Transition Sample!!!!',
+      flg: true,
+      btn: 'Show/Hide'
     };
   },
-  render: function (h) {
-    return (
-      <div>
-        <h1>{this.title}</h1>
-        <p>{this.message}</p>
-      </div>
-    );
+  methods: {
+    doAction: function () {
+      this.flg = !this.flg;
+    }
   }
 }
 </script>
@@ -37,6 +52,11 @@ p {
   margin: 0px;
   color: #666;
   font-size: 16pt;
+}
+.trans {
+  background-color: #ddf;
+  padding: 10px;
+  font-size: 20px;
 }
 .inner {
   color: red;
