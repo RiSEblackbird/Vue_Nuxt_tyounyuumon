@@ -1,11 +1,11 @@
-// 4-29
+// 4-30
 <template>
   <div class="hello">
     <h1>{{ title }}</h1>
     <p>{{ message }}</p>
     <hr/>
     <button v-on:click="doAction">
-      show/Hide
+      Show/Hide
     </button>
     <br><br>
     <transition name="transit">
@@ -58,13 +58,13 @@ p {
   width: 150px;
   background-color: #ddf;
   padding: 10px;
-  font-size: 20px;
+  font-size: 20pt;
 }
 .transit-enter-active {
-  transition: opacity 1.0s;
+  transition: 1.0s;
 }
 .transit-leave-active {
-  transition: opacity 1.0s;
+  transition: 1.0s;
 }
 .transit-enter {
   opacity: 0;
@@ -77,6 +77,10 @@ p {
 }
 .transit-leave-to {
   opacity: 0;
+}
+.transit-enter, .transit-leave-to {
+  transform: translateX(200px) translateY(-200px);
+  opacity: 0.1;
 }
 .inner {
   color: red;
