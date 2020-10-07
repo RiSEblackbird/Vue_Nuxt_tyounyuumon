@@ -11,6 +11,8 @@
 
 - [Introduction — Vue.js](https://vuejs.org/v2/guide/)
 
+- [はじめに - NuxtJS](https://ja.nuxtjs.org/guide)
+
 ### APIドキュメントまとめ
 
 - [API — Vue.js](https://jp.vuejs.org/v2/api/)
