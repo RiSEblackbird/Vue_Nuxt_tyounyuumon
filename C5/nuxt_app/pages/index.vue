@@ -1,13 +1,14 @@
-// 5-13
+// 5-15
 <template>
   <section class="container">
     <h1>{{ title }}</h1>
-    <p>{{ $store.state.message }}</p>
+    <p>{{ message }}</p>
     <hr>
     <div class="link"
-      v-on:click="doAction">
+      @click="$store.commit('count')"
+      @click.shift="$store.commit('reset')">
       <a>
-        click: {{ $store.state.counter }}
+        clicked: {{ $store.state.counter }}
       </a>
     </div>
   </section>
