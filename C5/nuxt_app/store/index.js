@@ -1,4 +1,4 @@
-// 5-14
+// 5-16
 import Vuex from 'vuex'
 
 const createStore = () => {
@@ -10,8 +10,8 @@ const createStore = () => {
       };
     },
     mutations: {
-      count: function (state) {
-        state.counter++;
+      count: function (state, n) {
+        state.counter += n;
       },
       reset: function (state) {
         state.counter = 0;
