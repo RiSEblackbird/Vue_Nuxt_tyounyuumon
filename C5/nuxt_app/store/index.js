@@ -1,11 +1,12 @@
-// 5-10
+// 5-12
 import Vuex from 'vuex'
 
 const createStore = () => {
   return new Vuex.Store({
     state: function() {
       return {
-        message: 'This is store message!'
+        message: 'count number',
+        counter: 0
       };
     }
   })
