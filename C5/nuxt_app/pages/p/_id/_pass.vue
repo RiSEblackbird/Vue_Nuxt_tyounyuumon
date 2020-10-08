@@ -10,8 +10,16 @@
   </section>
 </template>
 
+// 5-9
 <script>
 export default {
+  validate ({ params }) {
+    if (params.id == undefined || params.pass == underfined) {
+      return false;
+    } else {
+      return true;
+    }
+  },
   data: function () {
     return {
       title: 'Login'
