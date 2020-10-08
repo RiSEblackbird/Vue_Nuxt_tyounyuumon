@@ -15,6 +15,8 @@
 
 - [紹介 | Vue Router](https://router.vuejs.org/ja/)
 
+- [Vuex とは何か？ | Vuex](https://vuex.vuejs.org/ja/)
+
 ### APIドキュメントまとめ
 
 - [API — Vue.js](https://jp.vuejs.org/v2/api/)
@@ -150,5 +152,7 @@
 - [ルーティング - NuxtJS](https://ja.nuxtjs.org/guide/routing)
 
 - [動的ルートマッチング | Vue Router](https://router.vuejs.org/ja/guide/essentials/dynamic-matching.html#%E3%83%91%E3%83%A9%E3%83%A1%E3%83%BC%E3%82%BF%E3%83%BC%E5%A4%89%E6%9B%B4%E3%81%AE%E6%A4%9C%E7%9F%A5)
+
+- [ステート | Vuex](https://vuex.vuejs.org/ja/guide/state.html#%E3%82%B9%E3%83%86%E3%83%BC%E3%83%88)
 
 ## C6
