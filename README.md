@@ -27,13 +27,14 @@
 
 - [イベントハンドリング — Vue.js](https://jp.vuejs.org/v2/guide/events.html)
   - ``v-on``ディレクティブによるイベントの購読、装飾子、キー同時押しの条件など
-  - [# イベント装飾子](https://jp.vuejs.org/v2/guide/events.html#%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E4%BF%AE%E9%A3%BE%E5%AD%90)
-  - [# システム修飾キー](https://jp.vuejs.org/v2/guide/events.html#%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E4%BF%AE%E9%A3%BE%E5%AD%90%E3%82%AD%E3%83%BC)
+    - [# イベント装飾子](https://jp.vuejs.org/v2/guide/events.html#%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E4%BF%AE%E9%A3%BE%E5%AD%90)
+    - [# システム修飾キー](https://jp.vuejs.org/v2/guide/events.html#%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E4%BF%AE%E9%A3%BE%E5%AD%90%E3%82%AD%E3%83%BC)
 
 ####
 
 - [リストレンダリング — Vue.js](https://jp.vuejs.org/v2/guide/list.html)
   - ``v-for``ディレクティブによるアイテムリストの描画
+    - [# 変更メソッド](https://jp.vuejs.org/v2/guide/list.html#%E5%A4%89%E6%9B%B4%E3%83%A1%E3%82%BD%E3%83%83%E3%83%89)
 
 ### APIドキュメントまとめ
 
