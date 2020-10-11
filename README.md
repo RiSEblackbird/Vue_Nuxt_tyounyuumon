@@ -232,4 +232,11 @@
   }
   ~~~
 
+####
+
+- [Vuex ストア - NuxtJS](https://ja.nuxtjs.org/guide/vuex-store/)
+  - モジュールモード / クラシックモード(廃止予定)
+- [モジュール | Vuex](https://vuex.vuejs.org/ja/guide/modules.html)
+  - モジュールモードでは、store ディレクトリ内のすべての *.js ファイルが名前空間付きモジュールに変換される
+
 ## C6
