@@ -220,4 +220,16 @@
 
 - [状態管理 — Vue.js](https://jp.vuejs.org/v2/guide/state-management.html)
 
+- [robinvdvleuten/vuex-persistedstate](https://github.com/robinvdvleuten/vuex-persistedstate)
+
+  ~~~js
+  // ES6の場合
+  export default {
+    ............
+    mode: [
+      'spa'
+    ]
+  }
+  ~~~
+
 ## C6
