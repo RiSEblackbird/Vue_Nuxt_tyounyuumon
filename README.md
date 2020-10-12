@@ -246,3 +246,7 @@
 
 - [非同期なデータ - NuxtJS](https://ja.nuxtjs.org/guide/async-data/)
   - ``asyncData``メソッドを介した非同期通信について
+
+- [axios/axios: Promise based HTTP client for the browser and node.js](https://github.com/axios/axios)
+  - [# Handling Errors](https://github.com/axios/axios#handling-errors)
+    - ``catch``メソッド : ``axios.get()``でエラーを検知して処理を実行する

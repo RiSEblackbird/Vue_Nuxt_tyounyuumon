@@ -1,4 +1,4 @@
-// 6-3
+// 6-4
 <template>
   <section class="container">
     <h1>{{ title }}</h1>
@@ -47,6 +47,9 @@ export default {
       axios.get(url + this.msg).then((res) => {
         this.message = 'get ID=' + this.msg;
         this.json_data = res.data;
+      }).catch((error) => {
+        this.message = 'ERROR!!!!';
+        this.json_data = {};
       });
     }
   },
