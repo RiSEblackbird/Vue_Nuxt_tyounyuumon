@@ -240,3 +240,6 @@
   - モジュールモードでは、store ディレクトリ内のすべての *.js ファイルが名前空間付きモジュールに変換される
 
 ## C6
+
+- [JSONPlaceholder - Fake online REST API for testing and prototyping](https://jsonplaceholder.typicode.com/)
+  - JSON形式のREST APIでアクセスするとダミーデータを提供してくれる
