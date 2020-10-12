@@ -1,12 +1,16 @@
-// 6-2
+// 6-3
 <template>
   <section class="container">
     <h1>{{ title }}</h1>
     <p>{{ message }}</p>
+    <div>
+      <input type="text" v-model="msg" />
+      <button @click="doClick">Click</button>
+    </div>
     <table>
       <tr>
         <th>User ID</th>
-        <td>{{ json_data.userID }}</td>
+        <td>{{ json_data.userId }}</td>
       </tr>
       <tr>
         <th>ID</th>
@@ -33,15 +37,19 @@ export default {
   data: function () {
     return {
       title: 'Axios',
+      message: 'axios sample.',
       msg: '',
-      message: 'axios sample.'
+      json_data: {}
     };
   },
-  async asyncData () {
-    let id = 1;
-    let result = await axios.get(url + id);
-    return { json_data: result.data };
-  }
+  methods: {
+    doClick: function (event) {
+      axios.get(url + this.msg).then((res) => {
+        this.message = 'get ID=' + this.msg;
+        this.json_data = res.data;
+      });
+    }
+  },
 }
 </script>
 
@@ -57,6 +65,15 @@ p {
   padding-top: 5px;
   font-size: 20pt;
 }
+div {
+  font-size: 14pt;
+}
+input {
+  font-size: 14pt;
+}
+button {
+  font-size: 14pt;
+}
 tr th {
   width: 150px;
   background-color: darkblue;
@@ -66,9 +83,6 @@ tr th {
 tr td {
   padding: 5px 10px;
   background-color: #eef;
-  font-size: 14pt;
-}
-div {
   font-size: 14pt;
 }
 pre {

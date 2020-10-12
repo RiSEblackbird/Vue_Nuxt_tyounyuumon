@@ -243,3 +243,6 @@
 
 - [JSONPlaceholder - Fake online REST API for testing and prototyping](https://jsonplaceholder.typicode.com/)
   - JSON形式のREST APIでアクセスするとダミーデータを提供してくれる
+
+- [非同期なデータ - NuxtJS](https://ja.nuxtjs.org/guide/async-data/)
+  - ``asyncData``メソッドを介した非同期通信について
