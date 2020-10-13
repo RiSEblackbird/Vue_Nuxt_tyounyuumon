@@ -244,14 +244,22 @@
 - [JSONPlaceholder - Fake online REST API for testing and prototyping](https://jsonplaceholder.typicode.com/)
   - JSON形式のREST APIでアクセスするとダミーデータを提供してくれる
 
+####
+
 - [非同期なデータ - NuxtJS](https://ja.nuxtjs.org/guide/async-data/)
   - ``asyncData``メソッドを介した非同期通信について
+
+####
 
 - [axios/axios: Promise based HTTP client for the browser and node.js](https://github.com/axios/axios)
   - [# Handling Errors](https://github.com/axios/axios#handling-errors)
     - ``catch``メソッド : ``axios.get()``でエラーを検知して処理を実行する
 
+####
+
 - [Firebase](https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiWo9Om37DsAhUUBGAKHTxsDWEYABACGgJ0bQ&ohost=www.google.com&cid=CAESQeD2fawfAd2aBSmzmH5ZjxulZQpjUVH8HjJ8Me8oUT0Sd51ftKisrK_k3tzIyfHMkBdk3Ti_MRGDBtFfWVkWOLqF&sig=AOD64_1po_ynrdlMjJvqQuLcI-7WoMtENw&q&adurl&ved=2ahUKEwiTu8ym37DsAhWX62EKHalLB7wQ0Qx6BQiHARAB)
+
+####
 
 - クエリについて
   - [クエリ文字列（クエリストリング）とは - IT用語辞典 e-Words](http://e-words.jp/w/%E3%82%AF%E3%82%A8%E3%83%AA%E6%96%87%E5%AD%97%E5%88%97.html)
