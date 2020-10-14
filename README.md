@@ -1,5 +1,7 @@
 # 書籍 : "Vue.js&Nuxt.js超入門" 学習メモ
 
+**(読了)**
+
 ## Book info
 
 - [Vue.js&Nuxt.js超入門 - 掌田津耶乃 - 株式会社秀和システム](https://www.shuwasystem.co.jp/book/9784798056593.html)
