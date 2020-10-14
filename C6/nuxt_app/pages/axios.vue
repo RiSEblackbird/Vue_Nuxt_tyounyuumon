@@ -1,9 +1,18 @@
-// 6-11
+// 6-12 custom
 <template>
   <section class="container">
     <h1>{{ title }}</h1>
     <p>{{ message }}</p>
     <table>
+      <h3>Delete</h3>
+      <tr>
+        <th>Target Email</th>
+        <td><input v-model="del_email"></td>
+        <td><button @click="delData">Delete</button></td>
+      </tr>
+    </table>
+    <table>
+      <h3>Add</h3>
       <tr>
         <th>Email</th>
         <td><input v-model="email"></td>
@@ -22,7 +31,7 @@
       </tr>
       <tr>
         <th></th>
-        <td><button @click="addData">Click</button></td>
+        <td><button @click="addData">Create</button></td>
       </tr>
     </table>
     <hr>
@@ -42,6 +51,7 @@ export default {
     return {
       title: 'Axios',
       email: '',
+      del_email: '',
       username: '',
       tel: '',
       age: 0,
@@ -72,6 +82,14 @@ export default {
       }).catch((error) => {
         this.message = 'ERROR!';
         this.json_data = {};
+      });
+    },
+    delData: function () {
+      let del_url = url + '/' + this.del_email + '.json';
+      axios.delete(del_url).then((re) => {
+        this.message = this.email + 'を削除しました。';
+        this.email = '';
+        this.getData();
       });
     }
   },
